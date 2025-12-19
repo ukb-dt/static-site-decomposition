@@ -1,0 +1,50 @@
+
+/* MAIN CONTENT - Enhanced spacing */
+.page{
+  padding-top:calc(var(--header-h) + var(--space-xl));
+  padding-bottom:var(--space-2xl);
+}
+
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:var(--space-xl);
+  margin:var(--space-xl) 0;
+  box-shadow:var(--shadow);
+}
+
+/* Typography improvements */
+.card h1{
+  font-size:2.5rem;
+  font-weight:800;
+  margin-bottom:var(--space-lg);
+  background:var(--primary-gradient);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  letter-spacing:-0.02em;
+}
+
+.card h2{
+  font-size:1.75rem;
+  font-weight:700;
+  margin-top:var(--space-lg);
+  margin-bottom:var(--space-md);
+  color:var(--text);
+  border-left:4px solid var(--accent-blue);
+  padding-left:var(--space-md);
+}
+
+.card h3{
+  font-size:1.25rem;
+  font-weight:600;
+  margin-top:var(--space-md);
+  margin-bottom:var(--space-sm);
+  color:var(--accent-purple);
+}
+
+.card p{
+  margin-bottom:var(--space-md);
+  color:var(--text-secondary);
+}

@@ -1,0 +1,13 @@
+
+@media (max-width:768px){
+  .wrap-max{padding:0 var(--space-md)}
+  .nav-links{display:none}
+  .app-grid{right:1rem;left:1rem;grid-template-columns:repeat(2,1fr);min-width:auto}
+  #logo.logo { width: 100px; height: 100px; }
+  .card{padding:var(--space-lg)}
+  .card h1{font-size:2rem}
+  .card h2{font-size:1.5rem}
+  .two{grid-template-columns:1fr}
+  .image-gallery img{max-width:100%}
+  th, td{padding:var(--space-sm);font-size:0.9rem}
+}

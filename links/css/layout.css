@@ -1,0 +1,24 @@
+
+.wrap-max{
+  max-width:900px;
+  margin:0 auto;
+  padding:0 var(--space-lg);
+}
+
+.bg-pattern{position:fixed;inset:0;z-index:-2;background:var(--bg)}
+.bg-pattern::before{
+  content:''; position:absolute; inset:0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(102,126,234,.10) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(118,75,162,.10) 0%, transparent 50%),
+    radial-gradient(circle at 40% 60%, rgba(240,147,251,.08) 0%, transparent 50%);
+  animation:bgFloat 20s ease-in-out infinite;
+}
+@keyframes bgFloat{
+  0%,100%{transform:translate(0,0) rotate(0deg)}
+  33%{transform:translate(-20px,-20px) rotate(1deg)}
+  66%{transform:translate(20px,-10px) rotate(-1deg)}
+}
+
+.scroll-indicator{position:fixed;top:0;left:0;width:100%;height:3px;z-index:1000;background:var(--glass)}
+.scroll-progress{height:100%;width:0%;background:var(--primary-gradient);transition:width .3s ease}
