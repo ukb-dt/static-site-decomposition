@@ -26,7 +26,7 @@ So:
 
 ## 2. Proposed directory tree
 
-```text
+```sh
 /
 ├── index.html                 # PURE HTML, no JS, minimal CSS (optional)
 │
@@ -355,12 +355,7 @@ If you later want, I can give you:
 If you want any of those, say which and I’ll extend `gen.sh` without breaking the current contract.
 
 
-# 3
-# 4
-# 5
-# 6
-
-# N
+# 2
 Ah — now I fully understand. You want:
 
 * **index.html** to be **100% pure HTML**.
@@ -440,7 +435,7 @@ If you want, I can **also give a full “manifest view” with all filepaths and
 
 Do you want me to do that?
 
-# N + 1
+# 3
 Exactly — that comment is just a **placeholder**. Since `index.html` is pure HTML, the browser **does not automatically load external HTML files**.
 
 If you want **the page to render normally without manual copy-paste**, you have two options:
