@@ -1,3 +1,10 @@
+- `html`
+- `head`
+- `body`
+   - `header`
+   - `main`
+   - `footer` 
+
 # 1
 Perfect — you’re essentially asking for a **static-site decomposition** that keeps:     
 
