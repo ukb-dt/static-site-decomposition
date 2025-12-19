@@ -1,5 +1,5 @@
 # 1
-Perfect — you’re essentially asking for a **static-site decomposition** that keeps:
+Perfect — you’re essentially asking for a **static-site decomposition** that keeps:     
 
 * **`index.html` = structural table of contents only**
 * **No JS in index**
@@ -376,7 +376,6 @@ Here’s how it should look, fully “normal” HTML with references:
 ## `index.html`
 
 ```html
-index.html
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
